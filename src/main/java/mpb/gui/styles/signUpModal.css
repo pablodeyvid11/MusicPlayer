@@ -1,0 +1,64 @@
+.root
+{
+	-fx-background-color: #1b1a3d;
+}
+
+.grid 
+{
+	-fx-text-alignment: center;
+}
+
+.title
+{
+	-fx-text-fill: #ffffff;
+	-fx-font-size: 20px
+}
+
+.Button
+{
+	-fx-background-color: transparent;
+	-fx-border-color: #ffffff;
+	-fx-border-radius: 10px;
+	-fx-text-fill: white;
+	-fx-cursor: hand;
+}
+
+.Label 
+{
+	-fx-text-fill: #ffffff
+}
+
+.text-field {
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 1 0; /* Define uma borda apenas na parte inferior */
+    -fx-border-color: white; /* Cor da borda inferior */
+    -fx-text-fill: white; /* Cor do texto */
+}
+
+#playButton
+{
+	-fx-background-radius: 100;
+}
+
+.actionButton
+{
+	-fx-background-color: #04030A;
+}
+
+#currentUsername
+{
+	-fx-background-color: #191822;
+	-fx-text-fill: white;
+}
+
+#currentPlaylistTitle
+{
+	-fx-background-color: #04030A;
+	-fx-text-fill: white;
+}
+
+#currentSongTitle
+{
+	-fx-background-color: #04030A;
+	-fx-text-fill: white;
+}

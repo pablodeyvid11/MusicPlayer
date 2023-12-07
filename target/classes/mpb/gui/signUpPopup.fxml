@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mpb.gui.ViewControllerSignUp">
+   <children>
+      <Label id="l" layoutX="142.0" layoutY="42.0" styleClass="Label" text="Cadastro" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameSignUp" layoutX="50.0" layoutY="100.0" prefHeight="35.0" prefWidth="321.0" promptText="Nome">
+         <tooltip>
+            <Tooltip text="Nome não pode ser vazio" />
+         </tooltip></TextField>
+      <TextField fx:id="emailSignUp" layoutX="50.0" layoutY="144.0" prefHeight="35.0" prefWidth="321.0" promptText="Email">
+         <tooltip>
+            <Tooltip text="Email tem que ser válido" />
+         </tooltip></TextField>
+      <PasswordField fx:id="passwordSignUp" layoutX="50.0" layoutY="197.0" prefHeight="35.0" prefWidth="321.0" promptText="Senha">
+         <tooltip>
+            <Tooltip text="Senha precisa ser maior que 5 caracteres" />
+         </tooltip></PasswordField>
+      <PasswordField fx:id="confirmPasswordSignUp" layoutX="50.0" layoutY="247.0" prefHeight="35.0" prefWidth="321.0" promptText="Confirmar senha">
+         <tooltip>
+            <Tooltip text="As senhas necessitam ser iguais" />
+         </tooltip></PasswordField>
+      <Button fx:id="signUpButton" layoutX="126.0" layoutY="385.0" mnemonicParsing="false" onAction="#onClickSignUp" prefHeight="35.0" prefWidth="169.0" styleClass="Button" text="Cadastrar" />
+      <Label fx:id="warning" alignment="CENTER" layoutX="51.0" layoutY="339.0" prefHeight="17.0" prefWidth="321.0" text="AVISO" textAlignment="CENTER" textFill="#fc0000" />
+      <CheckBox fx:id="vip" layoutX="191.0" layoutY="305.0" mnemonicParsing="false" text="VIP" textFill="WHITE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,40 @@
+.root
+{
+	-fx-background-color: #04030A;
+}
+
+.Button
+{
+	-fx-background-color: #04030A;
+	-fx-text-fill: white;
+	-fx-pref-width: 170px;
+	-fx-pref-height: 50px;
+}
+
+#playButton
+{
+	-fx-background-radius: 100;
+}
+
+.actionButton
+{
+	-fx-background-color: #04030A;
+}
+
+#currentUsername
+{
+	-fx-background-color: #191822;
+	-fx-text-fill: white;
+}
+
+#currentPlaylistTitle
+{
+	-fx-background-color: #04030A;
+	-fx-text-fill: white;
+}
+
+#currentSongTitle
+{
+	-fx-background-color: #04030A;
+	-fx-text-fill: white;
+}
